@@ -1,4 +1,5 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/imomaliev/vue-ts/main.svg)](https://results.pre-commit.ci/latest/github/imomaliev/vue-ts/main)
+![build](https://github.com/imomaliev/vue-ts/actions/workflows/build.yml/badge.svg)
 
 # Vue 3 + Typescript + Vite
 
