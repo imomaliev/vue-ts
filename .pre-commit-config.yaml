@@ -25,4 +25,6 @@ repos:
           - '@typescript-eslint/parser@4.28.5'
           - eslint-plugin-vue@7.14.0
           - vue-eslint-parser@7.9.0
+          - jest@27.0.6
+          - eslint-plugin-jest@24.4.0
           - eslint-config-prettier@8.3.0

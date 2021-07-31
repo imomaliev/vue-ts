@@ -21,6 +21,7 @@
     "@vue/test-utils": "^2.0.0-rc.12",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-vue": "^7.14.0",
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
