@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "deploy": "vue-tsc --noEmit && vite build --base '/vue-ts/'",
     "serve": "vite preview",
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.vue",

@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -30,6 +30,8 @@ jobs:
       - run: npm run build
       - run: npm run test
 
+      - run: npm run deploy
+        if: matrix.node-version == '16.x'
       - name: Deploy
         # deploy only for version 16.x
         if: matrix.node-version == '16.x'
