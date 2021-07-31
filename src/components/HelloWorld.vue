@@ -25,6 +25,14 @@
     </a>
     |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
+    |
+    <a href="https://www.typescriptlang.org/docs/" target="_blank"
+      >TypeScript Docs</a
+    >
+    |
+    <a href="https://jestjs.io/docs/getting-started" target="_blank"
+      >Jest Docs</a
+    >
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
