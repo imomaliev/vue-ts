@@ -1,9 +1,65 @@
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/imomaliev/vue-ts/main.svg)](https://results.pre-commit.ci/latest/github/imomaliev/vue-ts/main)
 ![ci](https://github.com/imomaliev/vue-ts/actions/workflows/ci.yml/badge.svg)
 
-# Vue 3 + Typescript + Vite
+# Vue 3 + Typescript + Vite + Jest
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
+
+## Project setup
+
+Clone project with [`degit`](https://github.com/Rich-Harris/degit)
+
+```
+degit user/repo
+```
+
+### Install dependencies
+
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+npm run dev
+```
+
+### Compiles and minifies for production
+
+```
+npm run build
+```
+
+### Preview build
+
+```
+npm run serve
+```
+
+### Run your unit tests
+
+```
+npm run test
+```
+
+### Lint
+
+```
+npm run lint
+```
+
+### Fix files
+
+```
+npm run format
+```
+
+## Install pre-commit hooks
+
+```
+pre-commit install
+```
 
 ## Recommended IDE Setup
 
@@ -28,3 +84,7 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 3. Open `src/main.ts` in VSCode
 4. Open the VSCode command palette
 5. Search and run "Select TypeScript version" -> "Use workspace version"
+
+## About
+
+This project is created as a part of a [dev.to](https://dev.to) series [Creating vite vue ts template](https://dev.to/imomaliev/series/13845).
