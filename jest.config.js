@@ -9,4 +9,12 @@ module.exports = {
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
+  collectCoverage: true,
+  collectCoverageFrom: [
+    'src/**/*.{js,jsx,ts,tsx,vue}',
+    // do not cover types declarations
+    '!src/**/*.d.ts',
+    // do not cover main.ts because it is not testable
+    '!src/main.ts',
+  ],
 }
