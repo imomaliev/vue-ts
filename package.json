@@ -25,6 +25,7 @@
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-vue": "^7.14.0",
     "jest": "^27.0.6",
+    "jest-transform-stub": "^2.0.0",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.4",
     "typescript": "^4.3.5",
