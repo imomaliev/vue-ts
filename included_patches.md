@@ -13,7 +13,7 @@ e519548b chore: format (#4233)
 6cdca347 (tag: create-vite@2.5.3) release: create-vite@2.5.3
 a6c8fa3b chore: bump vue version (fix broken alias test case)
 87a9a70f feat(create-vite): update vue templates
-# fe74173f feat: explicit set `useDefineForClassFields` in ts templates (#4280)
+fe74173f feat: explicit set `useDefineForClassFields` in ts templates (#4280)
 # eb33b7a9 deps: bump @vue/compiler-sfc to 3.2.6 (#4775)
 # c6896e80 (tag: create-vite@2.6.1) release: create-vite@2.6.1
 # 5bc0ffc1 chore: recommend volar vscode extension (#4842)
