@@ -17,8 +17,8 @@ fe74173f feat: explicit set `useDefineForClassFields` in ts templates (#4280)
 eb33b7a9 deps: bump @vue/compiler-sfc to 3.2.6 (#4775)
 c6896e80 (tag: create-vite@2.6.1) release: create-vite@2.6.1
 5bc0ffc1 chore: recommend volar vscode extension (#4842)
-# 794f5db6 (tag: create-vite@2.6.2) release: create-vite@2.6.2
-# a2be9c11 feat(create-vite): update vue templates
+794f5db6 (tag: create-vite@2.6.2) release: create-vite@2.6.2
+a2be9c11 feat(create-vite): update vue templates
 # 3e1cce01 workflow: switch to pnpm (#5060)
 # 7426c855 (tag: create-vite@2.6.5) release: create-vite@2.6.5
 # 7c451375 (tag: create-vite@2.6.6) release: create-vite@2.6.6
