@@ -23,14 +23,14 @@ a2be9c11 feat(create-vite): update vue templates
 7426c855 (tag: create-vite@2.6.5) release: create-vite@2.6.5
 7c451375 (tag: create-vite@2.6.6) release: create-vite@2.6.6
 22873a7d refactor: normalize scripts and commands naming (#5207)
-# c93bc3df fix(create-vite): update vue-tsc for dts flags (#5453)
-# 6e8a70fd chore(deps): update create-vite (#5461)
-# ecafa809 chore: bump vue version
-# 8d9b3939 (tag: create-vite@2.7.0) release: create-vite@2.7.0
-# 5e605622 chore: bump vue version
-# cdebb49c chore: update create-vite templates
-# ab06081e (tag: create-vite@2.7.2) release: create-vite@2.7.2
-# 71868579 chore: prefer type imports (#5835)
+c93bc3df fix(create-vite): update vue-tsc for dts flags (#5453)
+6e8a70fd chore(deps): update create-vite (#5461)
+ecafa809 chore: bump vue version
+8d9b3939 (tag: create-vite@2.7.0) release: create-vite@2.7.0
+5e605622 chore: bump vue version
+cdebb49c chore: update create-vite templates
+ab06081e (tag: create-vite@2.7.2) release: create-vite@2.7.2
+71868579 chore: prefer type imports (#5835)
 # 64b15950 chore(create-vite): add more gitignore (#6247)
 # 9ad7c55d deps: update to typescript 4.5.4 (#6297)
 ```
