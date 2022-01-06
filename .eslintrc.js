@@ -3,6 +3,8 @@ module.exports = {
   // https://eslint.org/docs/rules/no-undef#nodejs
   env: {
     node: true,
+    // https://eslint.vuejs.org/user-guide/#compiler-macros-such-as-defineprops-and-defineemits-generate-no-undef-warnings
+    'vue/setup-compiler-macros': true,
   },
   parser: 'vue-eslint-parser',
   // https://github.com/vuejs/vue-eslint-parser#parseroptionsparser
