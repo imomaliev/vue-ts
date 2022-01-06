@@ -31,6 +31,6 @@ ecafa809 chore: bump vue version
 cdebb49c chore: update create-vite templates
 ab06081e (tag: create-vite@2.7.2) release: create-vite@2.7.2
 71868579 chore: prefer type imports (#5835)
-# 64b15950 chore(create-vite): add more gitignore (#6247)
-# 9ad7c55d deps: update to typescript 4.5.4 (#6297)
+64b15950 chore(create-vite): add more gitignore (#6247)
+9ad7c55d deps: update to typescript 4.5.4 (#6297)
 ```
