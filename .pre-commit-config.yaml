@@ -27,4 +27,4 @@ repos:
           - eslint-plugin-jest@26.5.3
           - eslint-plugin-vue@9.1.1
           - vue-eslint-parser@9.0.2
-          - jest@27.4.7
+          - jest@28.1.1

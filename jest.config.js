@@ -2,6 +2,11 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
+  // Test are actually running in node env so we need to add custom export conditons
+  // https://github.com/vuejs/test-utils/issues/234#issuecomment-1133672109
+  testEnvironmentOptions: {
+    customExportConditions: ['node', 'node-addons'],
+  },
   transform: {
     '^.+\\.vue$': '@vue/vue3-jest',
     // Jest doesn't handle non JavaScript assets by default.
