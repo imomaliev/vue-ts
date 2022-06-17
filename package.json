@@ -11,14 +11,14 @@
     "test": "jest"
   },
   "dependencies": {
-    "vue": "^3.2.26"
+    "vue": "^3.2.37"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@typescript-eslint/eslint-plugin": "^5.9.0",
     "@typescript-eslint/parser": "^5.9.0",
     "@vitejs/plugin-vue": "^2.3.3",
-    "@vue/test-utils": "2.0.0-rc.13",
+    "@vue/test-utils": "2.0.1",
     "@vue/vue3-jest": "^27.0.0-alpha.4",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
