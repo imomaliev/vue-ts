@@ -20,7 +20,7 @@ $ terraform apply
 ```console
 $ terraform init
 # import project from https://github.com/organization/project
-$ terraform import github_repository.project project
+$ terraform import module.github.github_repository.project project
 $ terraform plan
 $ terraform apply
 ```
