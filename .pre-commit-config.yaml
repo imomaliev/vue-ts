@@ -1,5 +1,9 @@
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
+ci:
+    # TODO: This currently fails with "command not found"
+    skip: [terraform_fmt, terraform_validate]
+
 repos:
     - repo: meta
       hooks:
