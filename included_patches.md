@@ -4,6 +4,21 @@
 
 ```console
 $ git log --oneline packages/create-vite/template-vue-ts
+1c2aef01 (tag: create-vite@2.9.4) release: create-vite@2.9.4
+1db7c493 (tag: create-vite@2.9.3) release: create-vite@2.9.3
+2b6d8fec chore(create-vite): update reference to volar vscode extension (#7994)
+7f96b263 (tag: create-vite@2.9.2) release: create-vite@2.9.2
+54e9cdd9 fix(create-vite): set skipLibCheck true (#7726)
+9a932339 fix(create-vite): bump `vue-tsc` to `0.34.7` (#7760)
+adacaba1 (tag: create-vite@2.9.1) release: create-vite@2.9.1
+4433df4c chore: update vue template setup api doc url (#7628)
+c2961301 chore: fix term cases (#7553)
+690f2d1d (tag: create-vite@2.9.0) release: create-vite@2.9.0
+cfc76482 docs(vue-ts): update note on vue type support in ts (#6165)
+21990ea3 chore: add isolatedModules to create-vite > template-vue-ts > tsconfig (#7304)
+526b5ce9 (tag: create-vite@2.8.0) release: create-vite@2.8.0
+487c1d12 chore: ensure local package private (#6785)
+bfbdb224 feat(create-vite): tsconfig support vite.config.ts (#6324)
 9ad7c55d deps: update to typescript 4.5.4 (#6297)
 64b15950 chore(create-vite): add more gitignore (#6247)
 71868579 chore: prefer type imports (#5835)
