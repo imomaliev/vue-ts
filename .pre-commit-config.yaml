@@ -23,12 +23,12 @@ repos:
       hooks:
           - id: prettier
     - repo: https://github.com/antonbabenko/pre-commit-terraform
-      rev: v1.72.1
+      rev: v1.74.1
       hooks:
           - id: terraform_fmt
           - id: terraform_validate
     - repo: https://github.com/pre-commit/mirrors-eslint
-      rev: v8.18.0
+      rev: v8.20.0
       hooks:
           - id: eslint
             files: \.([jt]sx?|vue)$ # *.js, *.jsx, *.ts, *.tsx and *.vue
