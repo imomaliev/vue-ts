@@ -4,36 +4,36 @@
 name: Deploy
 
 on:
-    push:
-        branches: [main]
-    workflow_run:
-        workflows: ['CI']
-        types: [completed]
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ['CI']
+    types: [completed]
 
 jobs:
-    deploy:
-        runs-on: ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
 
-        strategy:
-            matrix:
-                node-version: [16.x]
-                # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
-        if: ${{ github.event.workflow_run.conclusion == 'success' }}
-        steps:
-            - uses: actions/checkout@v2
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - uses: actions/checkout@v2
 
-            - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v2
-              with:
-                  node-version: ${{ matrix.node-version }}
-                  cache: 'npm'
-            - run: npm ci
-            - run: npm run build
-            - run: npm run deploy
-            - name: Deploy
-              # deploy only for version 16.x
-              uses: JamesIves/github-pages-deploy-action@4.1.4
-              with:
-                  branch: gh-pages # The branch the action should deploy to.
-                  folder: dist # The folder the action should deploy.
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - run: npm run deploy
+      - name: Deploy
+        # deploy only for version 16.x
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: dist # The folder the action should deploy.
